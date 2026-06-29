@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cde635b9-a256-40fa-9657-dfad1176db11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_InputOutputStreams/10_InputOutputStreams/unterricht/src/MyInputStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_InputOutputStreams/10_InputOutputStreams/unterricht/src/MyOutputStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_InputOutputStreams/10_InputOutputStreams/unterricht/unterricht.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_InputOutputStreams/10_InputOutputStreams/src/aufgaben/input/Aufgabe1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_InputOutputStreams/10_InputOutputStreams/src/aufgaben/input/Aufgabe2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10_InputOutputStreams/10_InputOutputStreams/src/aufgaben/output/Aufgabe1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +48,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Aufgabe1.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MyInputStreams.executor": "Run",
     "Application.MyOutputStreams.executor": "Run",
+    "Application.aufgaben.input.Aufgabe1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -65,10 +61,29 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MyInputStreams">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="unterricht" />
+  <component name="RunManager" selected="Application.Aufgabe2">
+    <configuration name="Aufgabe1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aufgaben.output.Aufgabe1" />
+      <module name="10_InputOutputStreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aufgaben.output.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Aufgabe2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aufgaben.input.Aufgabe2" />
+      <module name="10_InputOutputStreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aufgaben.input.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,11 +102,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="aufgaben.input.Aufgabe1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aufgaben.input.Aufgabe1" />
+      <module name="10_InputOutputStreams" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aufgaben.input.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Aufgabe2" />
+        <item itemvalue="Application.aufgaben.input.Aufgabe1" />
+        <item itemvalue="Application.Aufgabe1" />
         <item itemvalue="Application.MyInputStreams" />
         <item itemvalue="Application.MyOutputStreams" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
