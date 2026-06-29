@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cde635b9-a256-40fa-9657-dfad1176db11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/10_InputOutputStreams/10_InputOutputStreams/src/aufgaben/input/Aufgabe1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_InputOutputStreams/10_InputOutputStreams/src/aufgaben/input/Aufgabe2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10_InputOutputStreams/10_InputOutputStreams/src/aufgaben/output/Aufgabe1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cde635b9-a256-40fa-9657-dfad1176db11" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +44,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Aufgabe1.executor": "Run",
+    "Application.Aufgabe2.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MyInputStreams.executor": "Run",
     "Application.MyOutputStreams.executor": "Run",
