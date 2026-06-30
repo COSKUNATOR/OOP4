@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cde635b9-a256-40fa-9657-dfad1176db11" name="Changes" comment="" />
+    <list default="true" id="cde635b9-a256-40fa-9657-dfad1176db11" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/20_Streams/20_Streams/20_Streams.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_Streams/20_Streams/20_unterricht/20_unterricht.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_Streams/20_Streams/20_unterricht/resources/11223.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_Streams/20_Streams/20_unterricht/resources/1234.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_Streams/20_Streams/20_unterricht/resources/2233.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_Streams/20_Streams/20_unterricht/resources/3344.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_Streams/20_Streams/20_unterricht/resources/9876.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_Streams/20_Streams/20_unterricht/resources/arbeitszeiten.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_Streams/20_Streams/20_unterricht/resources/artikel.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_Streams/20_Streams/20_unterricht/src/Artikel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20_Streams/20_Streams/20_unterricht/src/MyStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_InputOutputStreams.zip" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,16 +63,23 @@
     "Application.Main.executor": "Run",
     "Application.MyInputStreams.executor": "Run",
     "Application.MyOutputStreams.executor": "Run",
+    "Application.MyStreams.executor": "Run",
     "Application.aufgaben.input.Aufgabe1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jledermann/OneDrive - WBSEDU/Desktop/OOP_4/10_InputOutputStreams/10_InputOutputStreams/10_InputOutputStreams.iml",
+    "last_opened_file_path": "C:/Users/jledermann/OneDrive - WBSEDU/Desktop/OOP_4/20_Streams/20_Streams/20_unterricht",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Aufgabe2">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jledermann\OneDrive - WBSEDU\Desktop\OOP_4\20_Streams\20_Streams\20_unterricht" />
+      <recent name="C:\Users\jledermann\OneDrive - WBSEDU\Desktop\OOP_4\20_Streams\20_Streams" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MyStreams">
     <configuration name="Aufgabe1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aufgaben.output.Aufgabe1" />
       <module name="10_InputOutputStreams" />
@@ -91,9 +113,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyOutputStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyOutputStreams" />
-      <module name="unterricht" />
+    <configuration name="MyStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyStreams" />
+      <module name="20_unterricht" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyStreams" />
         <item itemvalue="Application.Aufgabe2" />
         <item itemvalue="Application.aufgaben.input.Aufgabe1" />
         <item itemvalue="Application.Aufgabe1" />
         <item itemvalue="Application.MyInputStreams" />
-        <item itemvalue="Application.MyOutputStreams" />
       </list>
     </recent_temporary>
   </component>
