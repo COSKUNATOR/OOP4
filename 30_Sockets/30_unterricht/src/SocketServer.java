@@ -36,16 +36,24 @@
  *
  */
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.time.LocalTime;
+import java.util.logging.FileHandler;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 public class SocketServer {
+    private static final Logger logger = Logger.getLogger(SocketServer.class.getName());
+
     public static void main(String[] args) {
         SocketServer server = new SocketServer();
+        try {
+            configureLogger();
+        }catch (IOException e){
+            e.printStackTrace();
+        }
         try {
             server.start(12345);
         } catch (IOException e) {
@@ -91,11 +99,16 @@ public class SocketServer {
 
                             // Eine Zeile Text aus dem InputStream lesen:
                             String inputLine = reader.readLine();
+                            logger.info("Eingegebener Befehl: " + inputLine);
                             System.out.println("Nachricht vom Client empfangen: " + inputLine);
 
                             // Server soll auf die Nachricht antworten:
                             if(inputLine.equalsIgnoreCase("Hallo Server")){
                                 writer.println("Hallo Client");
+                            } else if (inputLine.equalsIgnoreCase("uhrzeit")) {
+                                writer.println(LocalTime.now());
+                            } else if (inputLine.equalsIgnoreCase("dir")) {
+                                writer.println(System.getProperty("user.dir"));
                             } else if(inputLine.equalsIgnoreCase("stop")){
                                 writer.println("Server wird beendet");
                                 break;
@@ -107,5 +120,17 @@ public class SocketServer {
                 }
             }
         }
+    }
+    private static void configureLogger() throws IOException {
+        String modulOrdner = System.getProperty("user.dir");
+        String logDatei = modulOrdner + File.separator + "befehle.log";
+
+        FileHandler fileHandler = new FileHandler(logDatei, true);
+        fileHandler.setFormatter(new SimpleFormatter());
+
+        logger.addHandler(fileHandler);
+        logger.setUseParentHandlers(false);
+
+        System.out.println("Logdatei wird gespeichert unter: " + logDatei);
     }
 }

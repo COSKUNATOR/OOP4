@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cde635b9-a256-40fa-9657-dfad1176db11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/30_Sockets/30_Sockets.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/30_Sockets/30_unterricht/30_unterricht.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/30_Sockets/30_unterricht/src/SocketClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/30_Sockets/30_unterricht/src/SocketServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30_Sockets/30_unterricht/30_unterricht.iml" beforeDir="false" afterPath="$PROJECT_DIR$/30_Sockets/30_unterricht/30_unterricht.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30_Sockets/30_unterricht/src/SocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/30_Sockets/30_unterricht/src/SocketClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/30_Sockets/30_unterricht/src/SocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/30_Sockets/30_unterricht/src/SocketServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jledermann/OneDrive - WBSEDU/Desktop/OOP_4/20_Streams/20_Streams/20_unterricht",
+    "last_opened_file_path": "C:/Users/jledermann/OneDrive - WBSEDU/Desktop/OOP_4/30_Sockets/30_unterricht/src",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -117,10 +118,18 @@
     <configuration name="SocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SocketServer" />
       <module name="30_unterricht" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/30_Sockets/30_unterricht/src" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Aufgabe2" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.MyStreams" />
+      <item itemvalue="Application.SocketClient" />
+      <item itemvalue="Application.SocketServer" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SocketClient" />

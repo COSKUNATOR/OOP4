@@ -1,12 +1,17 @@
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Scanner;
+import java.util.logging.FileHandler;
+import java.util.logging.Logger;
+import java.util.logging.SimpleFormatter;
 
 public class SocketClient {
     Scanner sc = new Scanner(System.in);
+
 
     public static void main(String[] args) {
         SocketClient client = new SocketClient();
@@ -61,7 +66,7 @@ public class SocketClient {
                     String antwort;
 
                     do{
-                        System.out.println("> ");
+                        System.out.print("> ");
                         String nachricht = sc.nextLine();
                         writer.println(nachricht);
                         antwort = reader.readLine();
