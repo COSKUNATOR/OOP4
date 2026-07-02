@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cde635b9-a256-40fa-9657-dfad1176db11" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/40_Xml/40_Xml.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/40_Xml/40_unterricht/40_unterricht.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/40_Xml/40_unterricht/resources/Verkaufswaren.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/40_Xml/40_unterricht/resources/bookstore.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/40_Xml/40_unterricht/resources/input.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/40_Xml/40_unterricht/resources/input.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/40_Xml/40_unterricht/src/DomParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/40_Xml/40_unterricht/src/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_Sockets/30_unterricht/30_unterricht.iml" beforeDir="false" afterPath="$PROJECT_DIR$/30_Sockets/30_unterricht/30_unterricht.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_Sockets/30_unterricht/src/SocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/30_Sockets/30_unterricht/src/SocketClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/30_Sockets/30_unterricht/src/SocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/30_Sockets/30_unterricht/src/SocketServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,17 +37,16 @@
     &quot;assignee&quot;: &quot;COSKUNATOR&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/COSKUNATOR/OOP4.git&quot;,
-    &quot;accountId&quot;: &quot;43dd7002-7d52-4642-bad7-f6923b31a795&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/COSKUNATOR/OOP4.git",
+    "accountId": "1bbc2578-74c0-4625-a758-ea0ea241336f"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="3Fnds0RVVew3xn61mC90KpIFy4Q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,6 +55,9 @@
   "keyToString": {
     "Application.Aufgabe1.executor": "Run",
     "Application.Aufgabe2.executor": "Run",
+    "Application.DomParser (1).executor": "Run",
+    "Application.DomParser (2).executor": "Run",
+    "Application.DomParser.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MyInputStreams.executor": "Run",
     "Application.MyOutputStreams.executor": "Run",
@@ -58,10 +66,12 @@
     "Application.SocketServer.executor": "Run",
     "Application.aufgaben.input.Aufgabe1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jledermann/OneDrive - WBSEDU/Desktop/OOP_4/30_Sockets/30_unterricht/src",
+    "last_opened_file_path": "C:/Users/jlcos/Desktop/java_wbs/OOP4/40_Xml/40_unterricht",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -70,40 +80,31 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jlcos\Desktop\java_wbs\OOP4\40_Xml\40_unterricht" />
       <recent name="C:\Users\jledermann\OneDrive - WBSEDU\Desktop\OOP_4\20_Streams\20_Streams\20_unterricht" />
       <recent name="C:\Users\jledermann\OneDrive - WBSEDU\Desktop\OOP_4\20_Streams\20_Streams" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SocketClient">
-    <configuration name="Aufgabe2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aufgaben.input.Aufgabe2" />
-      <module name="10_InputOutputStreams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aufgaben.input.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.DomParser">
+    <configuration name="DomParser (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DomParser" />
+      <module name="40_unterricht" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aufgaben.a2.Main" />
-      <module name="20_Streams" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aufgaben.a2.Book" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="DomParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DomParser" />
+      <module name="40_unterricht" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyStreams" />
-      <module name="20_unterricht" />
+    <configuration name="DomParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DomParser" />
+      <module name="40_unterricht" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../OOP4$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,21 +125,26 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Aufgabe2" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.MyStreams" />
+      <item itemvalue="Application.DomParser" />
       <item itemvalue="Application.SocketClient" />
       <item itemvalue="Application.SocketServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DomParser" />
+        <item itemvalue="Application.DomParser" />
+        <item itemvalue="Application.DomParser" />
         <item itemvalue="Application.SocketClient" />
         <item itemvalue="Application.SocketServer" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MyStreams" />
-        <item itemvalue="Application.Aufgabe2" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
